@@ -11,3 +11,4 @@ router.get('*', (req, res) => {
 }); 
 
 module.exports = router;
+// This section of my code is used to export the router object from a file so that it can be imported and used in oter files. 

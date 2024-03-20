@@ -9,7 +9,7 @@ const { clog } = require('./middleware/clog.js');
 
 const app = express();
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3002;
 // This line of code uses the clog middleware for logging
 app.use(clog);
 // This section of code is my middleware for parsing JSON and urlencoded form data
